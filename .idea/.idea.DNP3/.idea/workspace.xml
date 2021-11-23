@@ -5,8 +5,8 @@
     <projectFile profileName="DNP3">DNP3/DNP3.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Added the json files from previous assignement">
-      <change afterPath="$PROJECT_DIR$/DNP3/Persistence/FileContext.cs" afterDir="false" />
+    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Created the FileContext.cs class">
+      <change afterPath="$PROJECT_DIR$/DNP3/DataAccess/DNPDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637663480221</updated>
-      <workItem from="1637663483669" duration="1882000" />
+      <workItem from="1637663483669" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="Created the model classes">
       <created>1637664415718</created>
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637664502864</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created the FileContext.cs class">
+      <created>1637665393561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637665393561</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +116,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Created the model classes" />
     <MESSAGE value="Added the json files from previous assignement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the json files from previous assignement" />
+    <MESSAGE value="Created the FileContext.cs class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the FileContext.cs class" />
   </component>
 </project>
