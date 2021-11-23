@@ -1,0 +1,7 @@
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.csproj.AssemblyReference.cache
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.AssemblyInfoInputs.cache
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.AssemblyInfo.cs
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.csproj.CoreCompileInputs.cache
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.MvcApplicationPartsAssemblyInfo.cache

@@ -5,8 +5,10 @@
     <projectFile profileName="DNP3">DNP3/DNP3.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Created the FileContext.cs class">
-      <change afterPath="$PROJECT_DIR$/DNP3/DataAccess/DNPDbContext.cs" afterDir="false" />
+    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Created DB Context class">
+      <change afterPath="$PROJECT_DIR$/DNP3/Repo/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNP3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNP3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637663480221</updated>
-      <workItem from="1637663483669" duration="2188000" />
+      <workItem from="1637663483669" duration="3883000" />
     </task>
     <task id="LOCAL-00001" summary="Created the model classes">
       <created>1637664415718</created>
@@ -92,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637665393561</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created DB Context class">
+      <created>1637665703012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637665703012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +126,7 @@
     <MESSAGE value="Created the model classes" />
     <MESSAGE value="Added the json files from previous assignement" />
     <MESSAGE value="Created the FileContext.cs class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the FileContext.cs class" />
+    <MESSAGE value="Created DB Context class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created DB Context class" />
   </component>
 </project>
