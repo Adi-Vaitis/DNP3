@@ -5,10 +5,9 @@
     <projectFile profileName="DNP3">DNP3/DNP3.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Created DB Context class">
-      <change afterPath="$PROJECT_DIR$/DNP3/Repo/Repository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNP3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNP3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.AssemblyReference.cache" afterDir="false" />
+    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Repository class created">
+      <change afterPath="$PROJECT_DIR$/DNP3/Controllers/DNP3Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Controllers/WeatherForecastController.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637663480221</updated>
-      <workItem from="1637663483669" duration="3883000" />
+      <workItem from="1637663483669" duration="4983000" />
     </task>
     <task id="LOCAL-00001" summary="Created the model classes">
       <created>1637664415718</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637665703012</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Repository class created">
+      <created>1637667418413</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637667418413</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +133,7 @@
     <MESSAGE value="Added the json files from previous assignement" />
     <MESSAGE value="Created the FileContext.cs class" />
     <MESSAGE value="Created DB Context class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created DB Context class" />
+    <MESSAGE value="Repository class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repository class created" />
   </component>
 </project>
