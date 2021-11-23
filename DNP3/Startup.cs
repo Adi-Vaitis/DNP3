@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DNP3.DataAccess;
+using DNP3.Repo;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,8 @@ namespace DNP3
         {
             services.AddControllers();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "DNP3", Version = "v1"}); });
+            services.AddScoped<Repository>();
+            services.AddDbContext<DNPDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
