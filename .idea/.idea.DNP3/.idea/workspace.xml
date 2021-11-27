@@ -7,10 +7,10 @@
     <projectFile profileName="DNP3Client">DNP3Client/DNP3Client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Model classes">
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Data/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Authentication/CustomAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Authentication/CustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Data/IFamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Data/IFamilyService.cs" afterDir="false" />
+    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Authentication">
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Data/Impl/FamilyService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Data/Impl/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Models/Family.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Models/Family.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Authentication/CustomAuthenticationStateProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Models/Adult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DNP3Client/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -110,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637663480221</updated>
       <workItem from="1637663483669" duration="7064000" />
-      <workItem from="1638016145611" duration="951000" />
+      <workItem from="1638016145611" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="Created the model classes">
       <created>1637664415718</created>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638016868035</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Authentication">
+      <created>1638017206335</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638017206335</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +215,7 @@
     <MESSAGE value="Assignement done but have 2 errors that i need to fix" />
     <MESSAGE value="Redoing last assignement. I want to have the server and the client in the same solution folder so that i don't have to modify the assignement 2" />
     <MESSAGE value="Model classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model classes" />
+    <MESSAGE value="Authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication" />
   </component>
 </project>

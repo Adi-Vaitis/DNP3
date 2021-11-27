@@ -8,9 +8,6 @@ namespace DNP3Client.Models
         [Key]
         [JsonPropertyName("Id")]
         public int Id { get; set; }
-        [MaxLength(256)]
-        [JsonPropertyName("Photo")]
-        public string Photo  { get; set; }
         [Required, MaxLength(256)]
         [JsonPropertyName("StreetName")]
         public string StreetName { get; set; }
