@@ -1,16 +1,17 @@
-using System.ComponentModel.DataAnnotations;
-using DNP3.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Models
 {
+    [Table("Adults")]
     public class Adult : Person
     {
+        [JsonPropertyName("JobTitle")]
         public Job JobTitle { get; set; }
 
-        public override string ToString()
+        public Adult()
         {
-            return $"Full name: {FirstName} {LastName} Hair: {HairColor} Eyes: {EyeColor} Age: {Age} Weight: {Weight} Height: {Height} Gender: {Sex}" +
-                   $" Job: {JobTitle.JobTitle} Salary: {JobTitle.Salary}";
+            JobTitle = new Job();
         }
     }
 }
