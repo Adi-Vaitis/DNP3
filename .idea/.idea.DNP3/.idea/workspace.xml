@@ -72,7 +72,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.DNP3Client">
+  <component name="RunManager" selected=".NET Launch Settings Profile.DNP3">
     <configuration name="DNP3" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DNP3/DNP3.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />

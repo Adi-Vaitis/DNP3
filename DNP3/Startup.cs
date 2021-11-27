@@ -32,7 +32,7 @@ namespace DNP3
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "WebAPI", Version = "v1"}); });
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "DNP3", Version = "v1"}); });
             services.AddSingleton<DNPDbContext>();
             services.AddScoped<IFamilyService, FamilyService>();
             services.AddScoped<IUserService, UserService>();
