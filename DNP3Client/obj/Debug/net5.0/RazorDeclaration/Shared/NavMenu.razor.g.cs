@@ -82,6 +82,20 @@ using DNP3Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "C:\Users\vaiti\Documents\GitHub\DNP3\DNP3Client\Shared\NavMenu.razor"
+using Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\vaiti\Documents\GitHub\DNP3\DNP3Client\Shared\NavMenu.razor"
+using DNP3Client.Authentication;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,21 +104,59 @@ using DNP3Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\vaiti\Documents\GitHub\DNP3\DNP3Client\Shared\NavMenu.razor"
+#line 46 "C:\Users\vaiti\Documents\GitHub\DNP3\DNP3Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
+    private string username;
+    private string password;
+    private string errormessage;
+
+    private User _user;
+
+    [CascadingParameter]
+    protected Task<AuthenticationState> AuthStat { get; set; }
+
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+        var user = (await AuthStat).User;
+        if (user.Identity.IsAuthenticated)
+        {
+            username = user.Identity.Name;
+        }
+
+    }
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
 
+    public async Task PerformLogout()
+    {
+        errormessage = "";
+        username = "";
+        password = "";
+
+        try
+        {
+            ((CustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
+            NavigationManager.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+        }
+    }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthenticationStateProvider { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
     }
 }
 #pragma warning restore 1591

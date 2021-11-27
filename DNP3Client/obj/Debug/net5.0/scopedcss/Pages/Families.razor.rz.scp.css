@@ -1,0 +1,20 @@
+tr.hide-table-padding td[b-cexf5s805t] {
+    padding: 0;
+}
+
+.expand-button[b-cexf5s805t] {
+    position: relative;
+}
+
+.accordion-toggle .expand-button[b-cexf5s805t]:after
+{
+    position: absolute;
+    left:.75rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    content: '-';
+}
+.accordion-toggle.collapsed .expand-button[b-cexf5s805t]:after
+{
+    content: '+';
+}

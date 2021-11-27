@@ -4,4 +4,10 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\doitlater\AddPersonToUser.razor" />
+      <_ContentIncludedByDefault Remove="Pages\doitlater\Profile.razor" />
+      <_ContentIncludedByDefault Remove="Pages\doitlater\Register.razor" />
+    </ItemGroup>
+
 </Project>

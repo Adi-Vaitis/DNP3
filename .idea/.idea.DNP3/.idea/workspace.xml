@@ -7,10 +7,34 @@
     <projectFile profileName="DNP3Client">DNP3Client/DNP3Client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Authentication">
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Data/Impl/FamilyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Data/Impl/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Models/Family.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Models/Family.cs" afterDir="false" />
+    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddAdult.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddChild.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddFamily.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddInterest.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddPet.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddPetToFamily.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditAdult.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditChild.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditFamily.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditPet.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Families.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Families.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/FamilyInfo.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/FamilyInfo.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Login.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Login.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/DNP3Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/DNP3Client.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Counter.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Error.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/FetchData.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Index.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/_Host.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +48,7 @@
     <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Authentication/CustomAuthenticationStateProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Models/Adult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DNP3Client/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Models/Family.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21JeBCxjQGOmYujoun9cqsb8J5U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,7 +65,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.DNP3">
+  <component name="RunManager" selected=".NET Launch Settings Profile.DNP3Client">
     <configuration name="DNP3" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DNP3/DNP3.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -111,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637663480221</updated>
       <workItem from="1637663483669" duration="7064000" />
-      <workItem from="1638016145611" duration="1296000" />
+      <workItem from="1638016145611" duration="2345000" />
     </task>
     <task id="LOCAL-00001" summary="Created the model classes">
       <created>1637664415718</created>
@@ -183,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638017206335</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implemented the interfaces">
+      <created>1638017463215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638017463215</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +248,7 @@
     <MESSAGE value="Redoing last assignement. I want to have the server and the client in the same solution folder so that i don't have to modify the assignement 2" />
     <MESSAGE value="Model classes" />
     <MESSAGE value="Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authentication" />
+    <MESSAGE value="Implemented the interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the interfaces" />
   </component>
 </project>

@@ -1,0 +1,120 @@
+﻿@page "/EditPet/{IdFamily:int}/{IdChild:int}/{IdPet:int}"
+@using Microsoft.AspNetCore.Components
+@using Models
+@using DNP3Client.Data
+@inject IFamilyService FamilyService
+@inject NavigationManager NavigationManager
+@if (_petToEdit == null)
+{
+    <div class="text-center">
+        <h1>There's no child with this Id...</h1>
+    </div>
+}
+else
+{
+    <EditForm Model="@_petToEdit">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputFirstname">Species</label>
+                <input type="text" class="form-control" id="inputFirstname" @bind-value="_petToEdit.Species"/>
+            </div>
+            <div class="form-group col-md-4">
+            </div>
+            <div class="form-group col-md-2">
+                        </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputAge">Name</label>
+                <input type="text" class="form-control col-md-2" @bind-value="_petToEdit.Name"/>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputSex">Sex</label>
+                <input type="number" class="form-control" id="inputSex" @bind-value="_petToEdit.Age"/>
+            </div>
+            <div class="form-group col-md-2">
+              
+            </div>
+            <div class="form-group col-md-2">
+               
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary" @onclick="Save">Edit</button>
+                  <button type="submit" class="btn btn-warning" @onclick="Remove">Remove</button>
+
+    </EditForm>
+}
+
+@code {
+
+    [Parameter]
+    public int IdFamily { get; set; }
+    
+    [Parameter]
+    public int IdChild { get; set; }
+    
+    [Parameter]
+    public int IdPet { get; set; }
+
+    private Pet _petToEdit = new Pet();
+    private Family _family = new Family();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _family = await FamilyService.GetFamilyAsync(IdFamily);
+        for (int i = 0; i < _family.Children.Count; i++)
+        {
+            if (_family.Children[i].Id == IdChild)
+            {
+                var child = _family.Children[i];
+                for (int j = 0; i < child.Pets.Count; j++)
+                {
+                    if (child.Pets[j].Id == IdPet)
+                    {
+                        _petToEdit = child.Pets[j];
+                    }
+                }
+            }
+        }
+    }
+
+    public void Save()
+    {
+
+        for (int i = 0; i < _family.Children.Count; i++)
+        {
+            if (_family.Children[i].Id == IdChild)
+            {
+                var child = _family.Children[i];
+                for (int j = 0; i < child.Pets.Count; j++)
+                {
+                    if (child.Pets[j].Id == _petToEdit.Id)
+                    {
+                        _family.Children[i].Pets.Remove(child.Pets[i]);
+                        _family.Children[i].Pets.Add(_petToEdit);
+                    }
+                }
+            }
+            FamilyService.UpdateAsync(_family);
+            NavigationManager.NavigateTo($"/FamilyInfo/{IdFamily}");
+        }
+    }
+
+    public void Remove()
+    {
+        for (int i = 0; i < _family.Children.Count; i++)
+        {
+            var child = _family.Children[i];
+            for (int j = 0; i < child.Pets.Count; j++)
+            {
+                if (child.Pets[j].Id == _petToEdit.Id)
+                {
+                    _family.Children[i].Pets.Remove(child.Pets[j]);
+                }
+            }
+        }
+        FamilyService.UpdateAsync(_family);
+        NavigationManager.NavigateTo($"/FamilyInfo/{IdFamily}");
+    }
+
+}

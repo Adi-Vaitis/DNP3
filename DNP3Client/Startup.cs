@@ -1,15 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using DNP3Client.Authentication;
+using DNP3Client.Data;
+using DNP3Client.Data.Impl;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using DNP3Client.Data;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace DNP3Client
 {
@@ -28,7 +25,10 @@ namespace DNP3Client
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
+            services.AddScoped<IFamilyService, FamilyService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

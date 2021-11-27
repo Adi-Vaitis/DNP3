@@ -82,6 +82,13 @@ using DNP3Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\vaiti\Documents\GitHub\DNP3\DNP3Client\Pages\Index.razor"
+using LoginComponet;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -89,6 +89,18 @@ using DNP3Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 19 "C:\Users\vaiti\Documents\GitHub\DNP3\DNP3Client\Shared\MainLayout.razor"
+ 
+    protected async override Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
     }
 }
 #pragma warning restore 1591
