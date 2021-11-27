@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text.Json;
 using System.Threading.Tasks;
-using DNP2.Data;
+using DNP3Client.Data;
 using DNP3Client.Models;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.JSInterop;
-using Models;
 
-namespace Authentication {
-public class CustomAuthenticationStateProvider : AuthenticationStateProvider {
-     private readonly IJSRuntime jsRuntime;
+namespace DNP3Client.Authentication
+{
+    public class CustomAuthenticationStateProvider : AuthenticationStateProvider
+    {
+        private readonly IJSRuntime jsRuntime;
         private readonly IUserService userService;
         private User cachedUser;
 
@@ -82,5 +83,4 @@ public class CustomAuthenticationStateProvider : AuthenticationStateProvider {
             return identity;
         }
     }
-}
 }
