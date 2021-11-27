@@ -7,34 +7,39 @@
     <projectFile profileName="DNP3Client">DNP3Client/DNP3Client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddAdult.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddChild.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddFamily.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddInterest.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddPet.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Adds/AddPetToFamily.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditAdult.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditChild.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditFamily.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Edits/EditPet.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Families.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Families.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/FamilyInfo.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/FamilyInfo.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Login.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Pages/Login.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/DNP3Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/DNP3Client.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Error.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/FetchData.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/Index.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Pages/_Host.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3Client/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Startup.cs" afterDir="false" />
+    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Yes">
+      <change afterPath="$PROJECT_DIR$/DNP3/Controllers/FamiliesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3/Repo/IFamilyService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3/Repo/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3/Repo/Impl/FamilyService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3/Repo/Impl/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNP3/bin/Debug/net5.0/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Controllers/DNP3Controller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/DataAccess/DNPDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/DataAccess/DNPDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Migrations/20211123115543_Database.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Migrations/20211123115543_Database.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Migrations/DNPDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/Adult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/Child.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/Family.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/Interest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/Job.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/Pet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Persistence/FileContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Repo/Repository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/bin/Debug/net5.0/DNP3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/bin/Debug/net5.0/DNP3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/bin/Debug/net5.0/DNP3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/bin/Debug/net5.0/DNP3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/bin/Debug/net5.0/ref/DNP3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/bin/Debug/net5.0/ref/DNP3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/DNP3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/ref/DNP3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3/obj/Debug/net5.0/ref/DNP3.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Authentication/CustomAuthenticationStateProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vaiti/Documents/GitHub/DNP3/DNP3Client/Models/Adult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DNP3Client/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -59,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -136,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637663480221</updated>
       <workItem from="1637663483669" duration="7064000" />
-      <workItem from="1638016145611" duration="2345000" />
+      <workItem from="1638016145611" duration="3886000" />
     </task>
     <task id="LOCAL-00001" summary="Created the model classes">
       <created>1637664415718</created>
@@ -215,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638017463215</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Client side done">
+      <created>1638018561693</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638018561693</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Yes">
+      <created>1638018578190</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638018578190</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +258,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Created the model classes" />
     <MESSAGE value="Added the json files from previous assignement" />
@@ -249,6 +271,8 @@
     <MESSAGE value="Model classes" />
     <MESSAGE value="Authentication" />
     <MESSAGE value="Implemented the interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the interfaces" />
+    <MESSAGE value="Client side done" />
+    <MESSAGE value="Yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yes" />
   </component>
 </project>

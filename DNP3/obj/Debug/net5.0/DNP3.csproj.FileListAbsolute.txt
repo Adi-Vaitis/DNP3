@@ -57,3 +57,4 @@ C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.dll
 C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\ref\DNP3.dll
 C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.pdb
 C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\obj\Debug\net5.0\DNP3.genruntimeconfig.cache
+C:\Users\vaiti\Documents\GitHub\DNP3\DNP3\bin\Debug\net5.0\users.json

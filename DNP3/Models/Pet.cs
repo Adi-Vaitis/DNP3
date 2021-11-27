@@ -1,21 +1,20 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
-namespace DNP3.Models {
+namespace Models {
 public class Pet {
-    
+    [JsonPropertyName("Id")]
     [Key]
     public int Id { get; set; }
-    [Required]
+    [Required, MaxLength(128)]
+    [JsonPropertyName("Species")]
     public string Species { get; set; }
-    [Required]
+    [Required, MaxLength(128)]
+    [JsonPropertyName("Name")]
     public string Name { get; set; }
-    [Required]
+    [JsonPropertyName("Age")]
+    [Required, Range(1,30, ErrorMessage = "Age too big (max 30)")]
     public int Age { get; set; }
-    
-    
-    public override string ToString()
-    {
-        return $"Name: {Name} Species: {Species} Age:{Age}";
-    }
 }
 }
