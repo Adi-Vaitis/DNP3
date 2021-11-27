@@ -1,7 +1,14 @@
-﻿namespace DNP3Client.Models
+﻿using System.Text.Json.Serialization;
+
+namespace DNP3Client.Models
 {
-    public class Adult
-    {
-        
+    public class Adult : Person {
+        [JsonPropertyName("JobTitle")]
+        public Job JobTitle { get; set; }
+
+        public Adult()
+        {
+            JobTitle = new Job();
+        }
     }
 }

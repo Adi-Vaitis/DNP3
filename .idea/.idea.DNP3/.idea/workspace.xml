@@ -7,12 +7,9 @@
     <projectFile profileName="DNP3Client">DNP3Client/DNP3Client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DNP3/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Authentication/CustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DNP3Client/Data/IFamilyService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNP3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNP3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNP3.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3.sln" afterDir="false" />
+    <list default="true" id="798c619d-582e-4db0-aea3-0054703307d8" name="Changes" comment="Redoing last assignement. I want to have the server and the client in the same solution folder so that i don't have to modify the assignement 2">
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Models/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Models/Job.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNP3Client/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNP3Client/Models/Person.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DNP3Client/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="21JeBCxjQGOmYujoun9cqsb8J5U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -106,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637663480221</updated>
       <workItem from="1637663483669" duration="7064000" />
-      <workItem from="1638016145611" duration="303000" />
+      <workItem from="1638016145611" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Created the model classes">
       <created>1637664415718</created>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637670536238</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Redoing last assignement. I want to have the server and the client in the same solution folder so that i don't have to modify the assignement 2">
+      <created>1638016674310</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638016674310</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +196,7 @@
     <MESSAGE value="Repository class created" />
     <MESSAGE value="Controller created" />
     <MESSAGE value="Assignement done but have 2 errors that i need to fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignement done but have 2 errors that i need to fix" />
+    <MESSAGE value="Redoing last assignement. I want to have the server and the client in the same solution folder so that i don't have to modify the assignement 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redoing last assignement. I want to have the server and the client in the same solution folder so that i don't have to modify the assignement 2" />
   </component>
 </project>
